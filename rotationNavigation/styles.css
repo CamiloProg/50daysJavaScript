@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+.container {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: transform 0.5s linear;
+  transform-origin: top left;
+}
+article {
+  width: 80%;
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+article h5 {
+  color: teal;
+}
+article img {
+  width: 100%;
+}
+.burguer {
+  width: 50px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.x {
+  width: 30px;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+menu {
+  background-color: teal;
+  position: absolute;
+  top: -80px;
+  left: -80px;
+  margin: 0;
+  padding: 10px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s linear;
+}
+
+.rotated {
+  transform: rotate(-20deg);
+}
+.rotatedMenu {
+  transform: rotate(-70deg);
+}
+.block {
+  display: block;
+}
