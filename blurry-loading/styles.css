@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: url(./images/1218147.jpg) no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+  transition: backdrop-filter 3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blur {
+  backdrop-filter: blur(10px);
+}
+span {
+  font-size: 60px;
+  color: white;
+}
