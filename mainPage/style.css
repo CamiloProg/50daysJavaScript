@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: teal;
+}
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.project {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(23, 195, 146, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  border: 1px solid rgba(22, 60, 21, 0.12);
+  transition: all 1s;
+  overflow: hidden;
+  text-align: center;
+}
+.project:hover {
+  transform: scale(1.1);
+}
+
+.project:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* Black overlay with 0.5 opacity */
+  z-index: 1; /* Place the overlay on top of the image */
+}
+.project img {
+  width: 250px;
+  height: 100px;
+  object-fit: cover;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button {
+  display: none;
+}
+.selected {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  border: 2px solid white;
+  border-radius: 16px;
+  padding: 10px 20px;
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
