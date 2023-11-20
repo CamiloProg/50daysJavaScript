@@ -1,0 +1,38 @@
+body {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+
+  background-color: beige;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 70px;
+}
+.card h3 {
+  font-weight: 100;
+  color: gray;
+}
+.card button {
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.card h1 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}

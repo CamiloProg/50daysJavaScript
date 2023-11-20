@@ -50,12 +50,24 @@ const projectNames = [
   'Todo List',
   'Insect Catch Game'
 ];
+const projectUrl = [
+  'expandingCards',
+  'progressSteps',
+  'rotationNavigation',
+  'hiddenSearch',
+  'blurry-loading',
+  'scroll-animation',
+  'split-landing-page',
+  'form-wave',
+  'soundBoard',
+  'dadJokes'
+]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
   image: `../pictures/project_${index + 1}.PNG`,
   day: `Day ${index + 1}`,
   name: projectNames[index % projectNames.length],
-  button: `../expandingCards${index + 1}`
+  button: `../${projectUrl[index % projectUrl.length]}`
 }));
 
 const projectsContainer = document.getElementById('projects-container');
@@ -83,7 +95,8 @@ projects.forEach((project, index) => {
   const buttonElement = document.createElement('a');
   buttonElement.href = project.button;
   buttonElement.textContent = 'Demo';
-  buttonElement.classList.add('button')
+  buttonElement.classList.add('button');
+  buttonElement.target = '_blank';
   // Append elements to the project container
   projectDiv.appendChild(imageElement);
   projectDiv.appendChild(dayElement);
