@@ -60,7 +60,8 @@ const projectUrl = [
   'split-landing-page',
   'form-wave',
   'soundBoard',
-  'dadJokes'
+  'dadJokes',
+  'eventKeycodes'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
