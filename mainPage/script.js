@@ -61,7 +61,8 @@ const projectUrl = [
   'form-wave',
   'soundBoard',
   'dadJokes',
-  'eventKeycodes'
+  'eventKeycodes',
+  'fQuestions'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
