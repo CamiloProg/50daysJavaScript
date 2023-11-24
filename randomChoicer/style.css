@@ -1,0 +1,27 @@
+body {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+input {
+  width: 450px;
+  height: 200px;
+  text-align: center;
+}
+.tag {
+  background-color: #f0932b;
+  color: #000;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 10px 5px 10px 0;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.tag.highlight {
+  background-color: white;
+}
