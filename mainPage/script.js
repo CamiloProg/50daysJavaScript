@@ -63,7 +63,9 @@ const projectUrl = [
   'dadJokes',
   'eventKeycodes',
   'fQuestions',
-  'randomChoicer'
+  'randomChoicer',
+  'animatedNavigation',
+  'incrementingCounting'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
