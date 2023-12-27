@@ -1,0 +1,82 @@
+body {
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.cup {
+  background-color: #fff;
+  border: 4px solid rgb(0, 62, 62);
+  color: teal;
+  border-radius: 0 0 40px 40px;
+  height: 330px;
+  width: 150px;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.cup-small {
+  background-color: white;
+  width: 50px;
+  height: 100px;
+  border: 4px solid rgb(0, 62, 62);
+  border-end-end-radius: 16px;
+  border-end-start-radius: 16px;
+  color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cup.cup-small.full {
+  background-color: teal;
+  color: #fff;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  gap: 10px;
+}
+
+.remained {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  transition: 0.3s ease;
+}
+
+.remained span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.remained small {
+  font-size: 12px;
+}
+
+.percentage {
+  background-color: teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 0;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.text {
+  text-align: center;
+  margin: 0 0 5px;
+}
