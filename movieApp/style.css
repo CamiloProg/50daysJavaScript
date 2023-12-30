@@ -1,0 +1,100 @@
+body {
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0;
+}
+nav {
+  width: 100%;
+
+  background-color: rgb(40, 142, 142);
+  padding: 20px 0;
+  display: flex;
+  justify-content: end;
+}
+.search {
+  border: 2px solid rgb(3, 75, 75);
+  padding: 10px 100px 10px 10px;
+  border-radius: 32px;
+  margin-right: 10px;
+  color: rgb(49, 216, 216);
+  background-color: transparent;
+}
+.search::placeholder {
+  color: rgb(49, 216, 216);
+  outline: none;
+}
+.search:focus {
+  outline: none;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie {
+  width: 300px;
+  margin: 1rem;
+  background-color: transparent;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.movie-info {
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2rem;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie-info h3 {
+  margin-top: 0;
+}
+
+.movie-info span {
+  background-color: var(--primary-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.movie-info span.green {
+  color: lightgreen;
+}
+
+.movie-info span.orange {
+  color: orange;
+}
+
+.movie-info span.red {
+  color: red;
+}
+
+.overview {
+  background-color: teal;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(101%);
+  overflow-y: auto;
+  transition: transform 0.3s ease-in;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
+}
