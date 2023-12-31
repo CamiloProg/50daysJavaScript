@@ -68,7 +68,8 @@ const projectUrl = [
   'incrementingCounting',
   'drinkWater',
   'movieApp',
-  'backgroundSlide'
+  'backgroundSlide',
+  'themeClock'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
