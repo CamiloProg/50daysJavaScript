@@ -70,7 +70,8 @@ const projectUrl = [
   'movieApp',
   'backgroundSlide',
   'themeClock',
-  'rippleEffect'
+  'rippleEffect',
+  'dragDrop'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
