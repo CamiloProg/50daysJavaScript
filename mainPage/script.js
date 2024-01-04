@@ -72,7 +72,8 @@ const projectUrl = [
   'themeClock',
   'rippleEffect',
   'dragDrop',
-  'drawingApp'
+  'drawingApp',
+  'kineticLoader'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
