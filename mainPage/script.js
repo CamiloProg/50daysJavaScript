@@ -74,7 +74,8 @@ const projectUrl = [
   'dragDrop',
   'drawingApp',
   'kineticLoader',
-  'placeHolder'
+  'placeHolder',
+  'stickyNavbar'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
