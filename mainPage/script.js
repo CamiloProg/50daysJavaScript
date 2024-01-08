@@ -76,7 +76,8 @@ const projectUrl = [
   'kineticLoader',
   'placeHolder',
   'stickyNavbar',
-  'verticalSlider'
+  'verticalSlider',
+  'notifications'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
