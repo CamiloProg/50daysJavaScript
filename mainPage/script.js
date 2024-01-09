@@ -77,7 +77,8 @@ const projectUrl = [
   'placeHolder',
   'stickyNavbar',
   'verticalSlider',
-  'notifications'
+  'notifications',
+  'githubProfiles'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
