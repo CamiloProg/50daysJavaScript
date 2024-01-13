@@ -81,7 +81,8 @@ const projectUrl = [
   'githubProfiles',
   'doubleClickHeart',
   'autoText',
-  'passwordGenerator'
+  'passwordGenerator',
+  'goodCheap'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
