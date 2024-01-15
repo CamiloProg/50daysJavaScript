@@ -82,7 +82,8 @@ const projectUrl = [
   'doubleClickHeart',
   'autoText',
   'passwordGenerator',
-  'goodCheap'
+  'goodCheap',
+  'notesApp'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
