@@ -83,7 +83,8 @@ const projectUrl = [
   'autoText',
   'passwordGenerator',
   'goodCheap',
-  'notesApp'
+  'notesApp',
+  'animatedCountdown'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
