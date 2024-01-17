@@ -84,7 +84,8 @@ const projectUrl = [
   'passwordGenerator',
   'goodCheap',
   'notesApp',
-  'animatedCountdown'
+  'animatedCountdown',
+  'imageCarousel'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
