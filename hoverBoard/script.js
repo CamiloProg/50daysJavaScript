@@ -20,7 +20,7 @@ function setColor(element) {
 }
 
 function removeColor(element) {
-    element.style.background = '#fff'
+    element.style.background = '#fffff'
     element.style.boxShadow = '0 0 2px #000'
 }
 
