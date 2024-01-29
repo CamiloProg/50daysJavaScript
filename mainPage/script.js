@@ -87,7 +87,7 @@ const projectUrl = [
   'animatedCountdown',
   'imageCarousel',
   'hoverBoard',
-  'pokedex'
+  'pokedex',
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
