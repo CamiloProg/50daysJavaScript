@@ -88,7 +88,8 @@ const projectUrl = [
   'imageCarousel',
   'hoverBoard',
   'pokedex',
-  'mobileTab'
+  'mobileTab',
+  'password'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
