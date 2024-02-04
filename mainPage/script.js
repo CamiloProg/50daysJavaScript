@@ -89,7 +89,8 @@ const projectUrl = [
   'hoverBoard',
   'pokedex',
   'mobileTab',
-  'password'
+  'password',
+  'backgroundBox'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
