@@ -90,7 +90,8 @@ const projectUrl = [
   'pokedex',
   'mobileTab',
   'password',
-  'backgroundBox'
+  'backgroundBox',
+  'verifyAccount'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
