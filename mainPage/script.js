@@ -91,7 +91,8 @@ const projectUrl = [
   'mobileTab',
   'password',
   'backgroundBox',
-  'verifyAccount'
+  'verifyAccount',
+  'userFilter'
 ]
 
 const projects = Array.from({ length: 50 }, (_, index) => ({
