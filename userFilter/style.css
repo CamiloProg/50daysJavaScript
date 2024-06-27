@@ -86,7 +86,7 @@ body {
 }
 
 .user-list li:not(:last-of-type) {
-  border-bottom: 1px solid #fffff;
+  border-bottom: 1px solid #fff;
 }
 
 .user-list li.hide {
